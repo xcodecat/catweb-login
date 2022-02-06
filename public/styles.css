@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1642977631384-174cc982300f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  font-family: 'Pangolin', cursive;
+  font-weight: bolder;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.centered {
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+input[type="submit"] {
+  font-family: 'Acme', sans-serif;
+  font-weight: thin;
+  background-color: #e84118;
+  color: white;
+  border-radius: 5px; 
+  border: none;
+  margin: 10px;
+}
+
+input {
+  width: 70%;
+  border-radius: 5px;
+  border: 2px solid #e84118;
+  background-color: #f5f6fa;
+}
+
+label {
+  font-size: large;
+}
+
+input[type="text"] {
+  transition: width 0.6s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+form {
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto; 
+}
+
