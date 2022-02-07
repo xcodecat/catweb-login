@@ -38,16 +38,16 @@ input {
   background-color: #f5f6fa;
 }
 
-label {
-  font-size: large;
-}
-
 input[type="text"] {
   transition: width 0.6s ease-in-out;
 }
 
 input[type="text"]:focus {
   width: 100%;
+}
+
+label {
+  font-size: large;
 }
 
 .container {
