@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 
 body {
-  background-image: url("https://images.unsplash.com/photo-1642977631384-174cc982300f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+  background-image: url("https://images.unsplash.com/photo-1637964336303-68078127e5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,7 +14,8 @@ body {
   left: 0;
   overflow: hidden;
   font-family: "Pangolin", cursive;
-  font-weight: bold;
+  font-weight: bolder;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,22 +25,27 @@ body {
 input[type="submit"] {
   font-family: "Acme", sans-serif;
   font-weight: thin;
-  background-color: #e84118;
-  color: white;
+  color: black;
   border-radius: 5px;
   border: none;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 input {
-  width: 70%;
+  height: 25px;
+  width: 80%;
   border-radius: 5px;
-  border: 2px solid #e84118;
-  background-color: #f5f6fa;
+  border: none;
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(17.4px);
+  -webkit-backdrop-filter: blur(17.4px);
 }
 
 input[type="text"] {
-  transition: width 0.6s ease-in-out;
+  align-items: center;
+  transition: width 0.8s ease-in-out;
 }
 
 input[type="text"]:focus {
@@ -47,6 +53,7 @@ input[type="text"]:focus {
 }
 
 label {
+  text-align: center;
   font-size: large;
 }
 
@@ -57,11 +64,11 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(63, 60, 59, 0.18);
+  background: rgba(255, 255, 255, 0);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(13.7px);
-  -webkit-backdrop-filter: blur(13.7px);
-  width: 40%;
-  height: 25%;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  width: 30%;
+  height: 15%;
 }
