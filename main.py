@@ -11,6 +11,7 @@ def convert(body: bytes) -> dict:
 app = Wire()
 app.mount(StaticFiles("./public"), "/public") 
 
+
 @app.get('/login')
 async def login(req: Request):
     with open("login.html", "r") as f:
